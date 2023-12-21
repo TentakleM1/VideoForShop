@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS TV</title>
+</head>
+<body>
+    <div class="wrap">
+        <video id="video" loop autoplay controls muted width="1000">         
+            <source id="resurs" type="video/mp4" />
+          </video>
+    </div>
+    <script>
+        const player = document.getElementById('video')
+        const resurs = document.getElementById('resurs')
+
+        const arrayURL = [
+
+        ]
+
+        player.src = `https://rr2---sn-a5meknds.googlevideo.com/videoplayback?expire=1703214723&ei=I6qEZbmbGuausfIPgr6ekAY&ip=154.16.105.192&id=o-AM0KJOqzRV-MXiAvnfHdNWrkmpIUaKTeyc1kQOY_etHJ&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1j&mm=31%2C29&mn=sn-a5meknds%2Csn-a5msener&ms=au%2Crdu&mv=m&mvi=2&pl=27&initcwndbps=862500&spc=UWF9fyfWEIrb9tgUTCdyyRKw1STAXCA&vprv=1&svpuc=1&mime=video%2Fmp4&gir=yes&clen=65967085&ratebypass=yes&dur=1266.532&lmt=1703192985103083&mt=1703192697&fvip=3&fexp=24007246&c=ANDROID&txp=6219224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgXRr9SJWXAUElF9YjeHvbIEnh9xLzf1nggl4QDMUvFFgCIF1OArxIwkasOuZIGfGPdchSF8YZeH6wbvFSUigSYLla&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AAO5W4owRQIgcvNNis7HaYMO1ThN_YGVtB_ewyo2PFyu_zmQaVJp4OcCIQDSKkxVLLY2xoc1_zhcZPFMlAwBOPG8JBiLfh-HVwveNg%3D%3D&title=videoshop`
+        console.log(player)
+
+        let count = 1
+        let urlVideo
+
+        let videosPathURLs
+        // let promisPathVideoURLs = videosPath()
+
+        // promisPathVideoURLs.then((res) => {
+        //     videosPathURLs = res
+        //     player.src = `/video/${videosPathURLs[count]}`
+        //     console.log(videosPathURLs)
+        // })
+        
+        // player.addEventListener('ended', (e) => {
+
+        //     count++
+            
+        //     if(13 === count) {
+        //         count = 1
+        //     }
+
+        //     const url = videosPathURLs[count]
+
+        //     player.src = `/video/${url}`
+        //     player.load()
+        //     player.play()
+
+        // }, false)
+
+        // async function videosPath() {
+        //     let videos
+        //     await fetch('http://localhost:3040/videos')
+        //         .then(res => res.json())
+        //         .then(items => videos = items)
+
+        //     return videos
+        // }
+
+    </script>
+</body>
+</htm
